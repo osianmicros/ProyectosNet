@@ -72,10 +72,10 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormularioPrincipal.vb">
+    <Compile Include="CapaPresentacion\FormularioPrincipal.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormularioPrincipal.Designer.vb">
+    <Compile Include="CapaPresentacion\FormularioPrincipal.Designer.vb">
       <DependentUpon>FormularioPrincipal.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
@@ -96,7 +96,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="FormularioPrincipal.resx">
+    <EmbeddedResource Include="CapaPresentacion\FormularioPrincipal.resx">
       <DependentUpon>FormularioPrincipal.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -116,6 +116,11 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CapaDatos\" />
+    <Folder Include="CapaEntidades\" />
+    <Folder Include="CapaNegocio\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
