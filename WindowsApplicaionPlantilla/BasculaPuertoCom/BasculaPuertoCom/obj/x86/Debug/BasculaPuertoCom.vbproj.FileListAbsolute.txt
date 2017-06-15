@@ -1,0 +1,9 @@
+D:\Visual Studio 2010\IANAPPS\WindowsApplicaionPlantilla\BasculaPuertoCom\BasculaPuertoCom\bin\Debug\BasculaPuertoCom.exe
+D:\Visual Studio 2010\IANAPPS\WindowsApplicaionPlantilla\BasculaPuertoCom\BasculaPuertoCom\bin\Debug\BasculaPuertoCom.pdb
+D:\Visual Studio 2010\IANAPPS\WindowsApplicaionPlantilla\BasculaPuertoCom\BasculaPuertoCom\bin\Debug\BasculaPuertoCom.xml
+D:\Visual Studio 2010\IANAPPS\WindowsApplicaionPlantilla\BasculaPuertoCom\BasculaPuertoCom\obj\x86\Debug\BasculaPuertoCom.FormPrincipal.resources
+D:\Visual Studio 2010\IANAPPS\WindowsApplicaionPlantilla\BasculaPuertoCom\BasculaPuertoCom\obj\x86\Debug\BasculaPuertoCom.Resources.resources
+D:\Visual Studio 2010\IANAPPS\WindowsApplicaionPlantilla\BasculaPuertoCom\BasculaPuertoCom\obj\x86\Debug\BasculaPuertoCom.vbproj.GenerateResource.Cache
+D:\Visual Studio 2010\IANAPPS\WindowsApplicaionPlantilla\BasculaPuertoCom\BasculaPuertoCom\obj\x86\Debug\BasculaPuertoCom.exe
+D:\Visual Studio 2010\IANAPPS\WindowsApplicaionPlantilla\BasculaPuertoCom\BasculaPuertoCom\obj\x86\Debug\BasculaPuertoCom.xml
+D:\Visual Studio 2010\IANAPPS\WindowsApplicaionPlantilla\BasculaPuertoCom\BasculaPuertoCom\obj\x86\Debug\BasculaPuertoCom.pdb

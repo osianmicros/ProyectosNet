@@ -6,11 +6,11 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C781767F-038C-4ED6-8121-7EADA6BC017B}</ProjectGuid>
+    <ProjectGuid>{C636BC4C-D19F-496C-8524-8F8F08560092}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>WindowsApplicationPlantilla.My.MyApplication</StartupObject>
-    <RootNamespace>WindowsApplicationPlantilla</RootNamespace>
-    <AssemblyName>WindowsApplicationPlantilla</AssemblyName>
+    <StartupObject>PruebaForm.My.MyApplication</StartupObject>
+    <RootNamespace>PruebaForm</RootNamespace>
+    <AssemblyName>PruebaForm</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
@@ -23,7 +23,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>WindowsApplicationPlantilla.xml</DocumentationFile>
+    <DocumentationFile>PruebaForm.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
@@ -33,7 +33,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>WindowsApplicationPlantilla.xml</DocumentationFile>
+    <DocumentationFile>PruebaForm.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -72,14 +72,11 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CapaDatos\CapaDatos.vb" />
-    <Compile Include="CapaEntidades\Articulo.vb" />
-    <Compile Include="CapaNegocio\CapaNegocio.vb" />
-    <Compile Include="CapaPresentacion\FormularioPrincipal.vb">
+    <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CapaPresentacion\FormularioPrincipal.Designer.vb">
-      <DependentUpon>FormularioPrincipal.vb</DependentUpon>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -99,9 +96,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="CapaPresentacion\FormularioPrincipal.resx">
-      <DependentUpon>FormularioPrincipal.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -120,7 +114,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
